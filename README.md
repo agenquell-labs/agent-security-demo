@@ -10,3 +10,5 @@ Audited on every push by the Agenquell GitHub App (checks on commits and pull re
 Results are also uploaded to GitHub code scanning (Security tab).
 Triage decisions made in Agenquell are reflected in code scanning.
 False positives and accepted risks are dismissed in code scanning.
+
+Pull requests must pass the Agenquell check before they can be merged.
