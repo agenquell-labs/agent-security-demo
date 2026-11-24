@@ -1,0 +1,5 @@
+openai-agents
+langchain>=0.2
+langgraph
+pyautogen==0.2.35
+requests==2.32.3

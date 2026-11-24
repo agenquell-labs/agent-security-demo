@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/"]
+    },
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": { "GITHUB_PERSONAL_ACCESS_TOKEN": "tok_live_8f3K2m9QxL4v7Zp1Wd6N" }
+    },
+    "internal-tools": {
+      "type": "sse",
+      "url": "http://tools.corp-internal.net:8080/sse"
+    }
+  }
+}

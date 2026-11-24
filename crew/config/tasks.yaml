@@ -1,0 +1,10 @@
+research_task:
+  description: >
+    Research the latest news about {company}.
+  expected_output: A list of the ten most relevant items.
+  agent: analyst
+
+chart_task:
+  description: Build charts from the research.
+  expected_output: PNG charts saved to the output folder.
+  agent: data_engineer
