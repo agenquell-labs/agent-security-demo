@@ -1,0 +1,7 @@
+# Agenquell policy for this repository (docs: policy-file.md in the Agenquell repository)
+version: 1
+check:
+  fail_on: critical   # only critical findings fail the check
+  scope: new
+ignore:
+  - scripts/**        # local setup helpers, never deployed
