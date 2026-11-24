@@ -8,3 +8,4 @@ Never deploy this code.
 
 Audited on every push by the Agenquell GitHub App (checks on commits and pull requests).
 Results are also uploaded to GitHub code scanning (Security tab).
+Triage decisions made in Agenquell are reflected in code scanning.
