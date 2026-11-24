@@ -5,3 +5,5 @@ to demonstrate [Agenquell](https://github.com/agenquell-labs) audits, GitHub che
 
 Every issue here is deliberate. All credentials are fake and do not belong to any real account.
 Never deploy this code.
+
+Audited on every push by the Agenquell GitHub App (checks on commits and pull requests).
